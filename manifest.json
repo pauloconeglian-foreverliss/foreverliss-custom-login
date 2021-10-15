@@ -1,0 +1,23 @@
+{
+  "vendor": "distribuidorforeverliss",
+  "name": "login-foreverliss",
+  "version": "0.0.1",
+  "title": "VTEX Login",
+  "defaultLocale": "pt-BR",
+  "description": "The VTEX Login app",
+  "builders": {
+    "react": "3.x",
+    "store": "0.x",
+    "messages": "1.x",
+    "docs": "0.x"
+  },
+  "mustUpdateAt": "2019-04-02",
+  "dependencies": {
+    "vtex.styleguide": "9.x",
+    "vtex.store-icons": "0.x",
+    "vtex.react-vtexid": "4.x",
+    "vtex.react-portal": "0.x",
+    "vtex.css-handles": "0.x"
+  },
+  "$schema": "https://raw.githubusercontent.com/vtex/node-vtex-api/master/gen/manifest.schema"
+}

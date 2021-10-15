@@ -1,0 +1,25 @@
+{
+  "login": {
+    "component": "Login",
+    "allowed": [
+      "user-identifier",
+      "icon-profile",
+      "icon-eye-sight",
+      "icon-arrow-back"
+    ]
+  },
+  "login-content": {
+    "component": "LoginContent",
+    "render": "client",
+    "allowed": [
+      "user-identifier",
+      "icon-profile",
+      "icon-eye-sight",
+      "icon-arrow-back"
+    ]
+  },
+  "user-identifier": {
+    "component": "*",
+    "extensibility": "enterprise"
+  }
+}
